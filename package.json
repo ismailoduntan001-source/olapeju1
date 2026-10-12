@@ -1,0 +1,21 @@
+{
+  "name": "olapeju-yoruba-class",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Olápèjú, a teacher cat who helps children build Yoruba sentences.",
+  "scripts": {
+    "audio": "python3 tools/make_audio.py",
+    "android:add": "cap add android",
+    "android:assets": "capacitor-assets generate --android",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}

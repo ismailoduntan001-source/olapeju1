@@ -1,0 +1,9 @@
+{
+  "appId": "com.olapeju.yorubaclass",
+  "appName": "Olápèjú",
+  "webDir": "www",
+  "backgroundColor": "#bfe3d6",
+  "server": {
+    "androidScheme": "https"
+  }
+}
